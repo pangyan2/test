@@ -24,8 +24,13 @@ To investigate the improved discrimination, we canceled some components of multi
 - k-WediGNN
 - k-WediGNN+Out-degree
 - k-WediGNN+In-degree
-## Visualizations of sample representations
+##  Visualizations
+ Below is a diagram illustrates all scatter diagrams of combined representations of pairs of nodes [*v*<sub>*p*</sub> : *v*<sub>*q*</sub>] learned on the four datasets.
+![Visualizations of sample representations.png](Visualizations_of_sample_representations.png)
+The 1st, 2nd, 3rd, and 4th rows present the scatter results on DSA, ML, LectureBank, and University Courses,respectively. Columns correspond to different methods. Red points indicate the negative sample, while blue points are the positive samples.
 
+The following figure visualizes the 2D representations of the directed linksand their inverse links. For each positive sample [*v*<sub>*p*</sub> : *v*<sub>*q*</sub>], we plotted [*v*<sub>*p*</sub> : *v*<sub>*q*</sub>:*v*<sub>*p*</sub>—*v*<sub>*q*</sub>]and [*v*<sub>*q*</sub> : *v*<sub>*p*</sub>:*v*<sub>*q*</sub>—*v*<sub>*p*</sub>] to investigate whether the learned features can predict the direction correctly.
+![fig4](fig4.png)
 
 
 
