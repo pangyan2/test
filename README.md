@@ -12,11 +12,11 @@
 > - University Courses
 ## Experiment
 > To showcase the superiority, we compared our methods with the traditional binary classification models developed in CPRP,including Support Vector Machine (SVM), Naive Bayes (NB),, and as well as the state-of-the-art approaches, including:
-> - Graph Autoencoder (GAE) and Variational Graph Autoen-coder (VGAE) [28].
-> - Reference Distance (RefD) [30].
-> - Prerequisite Prediction (PREREQ) [26].
-> - Concept Prerequisite Relation Learning (CPRL) [31].
-> - Contextual-knowledge-aware approach (Conlearn) [5].
+> - Graph Autoencoder (GAE) and Variational Graph Autoen-coder (VGAE).
+> - Reference Distance (RefD).
+> - Prerequisite Prediction (PREREQ).
+> - Concept Prerequisite Relation Learning (CPRL).
+> - Contextual-knowledge-aware approach (Conlearn).
   
 > To investigate the improved discrimination, we canceled some components of multiscale k-WediGNNs as the references:
 > - GNN
@@ -56,6 +56,8 @@ ROCs and AUCs. These results consolidate that the proposed
 strategy can enhance directed link prediction, delivering state-of-the-art CPRP performance.
 ![fig5](fig5.png)  
 These aforementioned results substantiate the efficacy of our research.
+## Dependencies
+> wait...........
 ##  Tips
 > <font color=red>The complete code will be uploaded to the repository in a subsequent update.</font>
 
