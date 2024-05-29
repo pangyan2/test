@@ -41,9 +41,6 @@ of topological features and multiscale features.
 ![table1](table1.png)
 Table II shows the evaluation results of ablation studies on the four datasets.As is shown, k-WediGNN gains significant
 improvements with respect to GNN, manifesting the effectiveness of the topological features;
-Fig. 5. Receiver operating characteristic (ROC) curves of the ablation studies
-on four datasets. The areas under the ROC curves (AUCs) are then computed.
-ness of the topological features;
 ![table2](table2.png)
 Below is a diagram shows the ROC curves together with their AUC values
 of the ablation studies on the four datasets. From the results,
